@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Coat{% endblock %}
+
+{% block body %}
+
+    <table>
+
+        {% for coat in coats %}
+            <tr>
+                <td>{{ coat.description }}</td>
+                <td>{{ coat.price }}</td>
+                <td>{{ coat.isForWinterString() }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}
