@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New ClientProfile{% endblock %}
+
+{% block body %}
+    <h1>Create new ClientProfile</h1>
+
+    {{ include('client_profile/_form.html.twig') }}
+
+    <a href="{{ path('app_client_profile_index') }}">back to list</a>
+{% endblock %}

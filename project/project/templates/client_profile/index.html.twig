@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ClientProfile index{% endblock %}
+
+{% block body %}
+    <h1>ClientProfile index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Dob</th>
+                <th>HistoryOfPurchase</th>
+                <th>RentalStatus</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for client_profile in client_profiles %}
+            <tr>
+                <td>{{ client_profile.id }}</td>
+                <td>{{ client_profile.name }}</td>
+                <td>{{ client_profile.age }}</td>
+                <td>{{ client_profile.email }}</td>
+                <td>{{ client_profile.Dob }}</td>
+                <td>{{ client_profile.HistoryOfPurchase }}</td>
+                <td>{{ client_profile.RentalStatus ? 'Yes' : 'No' }}</td>
+                <td>
+                    <a href="{{ path('app_client_profile_show', {'id': client_profile.id}) }}">show</a>
+                    <a href="{{ path('app_client_profile_edit', {'id': client_profile.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="8">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_client_profile_new') }}">Create new</a>
+{% endblock %}
