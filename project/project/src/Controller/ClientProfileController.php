@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[Route('/client/profile', name: 'ClientProfile')]
+#[Route('/client/profile')]
 class ClientProfileController extends AbstractController
 {
     #[Route('/', name: 'app_client_profile_index', methods: ['GET'])]

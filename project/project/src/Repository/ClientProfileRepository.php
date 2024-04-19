@@ -21,28 +21,20 @@ class ClientProfileRepository extends ServiceEntityRepository
         parent::__construct($registry, ClientProfile::class);
     }
 
-//    /**
-//     * @return ClientProfile[] Returns an array of ClientProfile objects
-//     */
-//    public function findByExampleField($value): array
-//    {
-//        return $this->createQueryBuilder('c')
-//            ->andWhere('c.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->orderBy('c.id', 'ASC')
-//            ->setMaxResults(10)
-//            ->getQuery()
-//            ->getResult()
-//        ;
-//    }
+    /**
+     * @return ClientProfile[] Returns an array of ClientProfile objects
+     */
+    public function findByUser(User $user): array
+    {
+        return $this->createQueryBuilder('p')
+            ->andWhere('p.user = :user')
+            ->setParameter('user', $user)
+        //    ->orderBy('c.id', 'ASC')
 
-//    public function findOneBySomeField($value): ?ClientProfile
-//    {
-//        return $this->createQueryBuilder('c')
-//            ->andWhere('c.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->getQuery()
-//            ->getOneOrNullResult()
-//        ;
-//    }
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+
+
 }
