@@ -24,6 +24,23 @@ class DefaultController extends AbstractController
         return $this->render($template, $args);
     }
 
+    #[Route('/client/profile', name: 'ClientProfile')]
+    public function ClientProfile(): Response
+    {
+        $template = 'default/ClientProfile.html.twig';
+        $args = [];
+        return $this->render($template, $args);
+    }
+
+    #[Route('/View/Purchase/History', name: 'ViewPurchaseHistory')]
+    public function ViewPurchaseHistory(): Response
+    {
+        $template = 'default/ViewPurchaseHistory.html.twig';
+        $args = [];
+        return $this->render($template, $args);
+    }
+
+
     #[Route('/threes/{n}', name: 'threes')]
     public function threes(int $n): Response
     {

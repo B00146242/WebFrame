@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ClientProfile{% endblock %}
+
+{% block body %}
+    <h1>ClientProfile</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ client_profile.id }}</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>{{ client_profile.name }}</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ client_profile.age }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ client_profile.email }}</td>
+            </tr>
+            <tr>
+                <th>Dob</th>
+                <td>{{ client_profile.Dob }}</td>
+            </tr>
+            <tr>
+                <th>HistoryOfPurchase</th>
+                <td>{{ client_profile.HistoryOfPurchase }}</td>
+            </tr>
+            <tr>
+                <th>RentalStatus</th>
+                <td>{{ client_profile.RentalStatus ? 'Yes' : 'No' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_client_profile_index') }}">back to list</a>
+
+    <a href="{{ path('app_client_profile_edit', {'id': client_profile.id}) }}">edit</a>
+
+    {{ include('client_profile/_delete_form.html.twig') }}
+{% endblock %}
