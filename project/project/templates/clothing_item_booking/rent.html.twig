@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Rent an Item{% endblock %}
+
+{% block body %}
+    <h1>Rent an Item</h1>
+    <form action="{{ path('app_clothing_item_rent') }}" method="post">
+        <label for="item_name">Item Name:</label>
+        <input type="text" id="item_name" name="item_name" required><br><br>
+
+        <label for="duration">Duration:</label>
+        <select id="duration" name="duration" required>
+            <option value="1">1 Month</option>
+            <option value="2">2 Months</option>
+            <option value="3">3 Months</option>
+        </select><br><br>
+
+        <button type="submit">Rent</button>
+    </form>
+{% endblock %}
