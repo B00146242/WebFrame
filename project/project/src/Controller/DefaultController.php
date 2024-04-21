@@ -32,6 +32,14 @@ class DefaultController extends AbstractController
         return $this->render($template, $args);
     }
 
+    #[Route('/View/Purchase/History', name: 'ViewPurchaseHistory')]
+    public function ViewPurchaseHistory(): Response
+    {
+        $template = 'default/ViewPurchaseHistory.html.twig';
+        $args = [];
+        return $this->render($template, $args);
+    }
+
 
     #[Route('/threes/{n}', name: 'threes')]
     public function threes(int $n): Response
