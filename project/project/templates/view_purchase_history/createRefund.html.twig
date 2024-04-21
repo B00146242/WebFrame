@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Purchase History{% endblock %}
+
+{% block body %}
+    <h1>Purchase History</h1>
+
+    <h2>Create Refund</h2>
+    <form action="{{ path('app_create_refund') }}" method="post">
+        <label for="order_id">Order ID:</label>
+        <input type="text" id="order_id" name="order_id" required><br><br>
+
+        <label for="reason">Reason:</label>
+        <textarea id="reason" name="reason" required></textarea><br><br>
+
+        <button type="submit">Submit Refund</button>
+    </form>
+{% endblock %}
