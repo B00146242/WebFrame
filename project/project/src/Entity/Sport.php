@@ -26,6 +26,8 @@ class Sport
         $this->clubs = new ArrayCollection();
     }
 
+
+
     public function getId(): ?int
     {
         return $this->id;
