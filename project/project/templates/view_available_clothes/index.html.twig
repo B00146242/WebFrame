@@ -1,8 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}View Order{% endblock %}
-
-
+{% block title %}Hello ViewAvailableClothesController!{% endblock %}
 {% block body %}
     <style>
         .names-wrapper {
@@ -19,10 +17,10 @@
     </style>
 
     <div class="names-wrapper">
-        <h1>List Of Order</h1>
+        <h1>List Of Available Clothes</h1>
         <ul>
             {% set names = [
-                ' black Jacket 1x', 'blue Jeans 2x'
+                'Jacket', 'Jeans', 'Shirt', 'Joggers'
             ] %}
             {% for name in names %}
                 <li>{{ name }}</li>
@@ -30,3 +28,4 @@
         </ul>
     </div>
 {% endblock %}
+
