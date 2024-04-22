@@ -64,7 +64,7 @@ class AppFixtures extends Fixture
         ItemFactory::createOne(
             [
                 'typeOfClothing' => 'jacket',
-                'material' => '',
+                'material' => 'Wool',
                 'Colour' => 'Grey',
                 'Damaged' =>  false,
                 'price' => 10.99
