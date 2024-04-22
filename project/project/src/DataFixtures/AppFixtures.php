@@ -65,9 +65,9 @@ class AppFixtures extends Fixture
             [
                 'typeOfClothing' => 'jacket',
                 'material' => 'Wool',
-                'Colour' => 'Grey',
+                'Colour' => 'red',
                 'Damaged' =>  false,
-                'price' => 10.99
+                'price' => 16.99
             ]
         );
 //
