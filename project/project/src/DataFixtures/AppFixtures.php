@@ -48,7 +48,7 @@ class AppFixtures extends Fixture
                 'material' => 'Cotton',
                 'Colour' => 'Blue',
                 'Damaged' => true,
-                'price' => 39.99
+                'price' => 20.00
 
             ]
         );
@@ -58,7 +58,7 @@ class AppFixtures extends Fixture
                 'material' => 'Wool',
                 'Colour' => 'Grey',
                 'Damaged' =>  false,
-                'price' => 10.99
+                'price' => 10.00
             ]
         );
         ItemFactory::createOne(
@@ -67,7 +67,7 @@ class AppFixtures extends Fixture
                 'material' => 'Wool',
                 'Colour' => 'red',
                 'Damaged' =>  false,
-                'price' => 16.99
+                'price' => 30.00
             ]
         );
 //
