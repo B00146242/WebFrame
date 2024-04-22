@@ -29,8 +29,8 @@
                 <td>{{ client_profile.HistoryOfPurchase }}</td>
                 <td>{{ client_profile.RentalStatus ? 'Yes' : 'No' }}</td>
                 <td>
-                    <a href="{{ path('app_client_profile_show', {'id': client_profile.id}) }}">show</a>
-                    <a href="{{ path('app_client_profile_edit', {'id': client_profile.id}) }}">edit</a>
+                    <a class = "btn btn-primary" href="{{ path('app_client_profile_show', {'id': client_profile.id}) }}">show</a>
+                    <a class = "btn btn-primary" href="{{ path('app_client_profile_edit', {'id': client_profile.id}) }}">edit</a>
                 </td>
             </tr>
         {% else %}

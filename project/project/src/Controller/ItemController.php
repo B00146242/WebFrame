@@ -52,6 +52,14 @@ class ItemController extends AbstractController
         ]);
     }
 
+    #[Route('/{id}', name: 'app_item_buy', methods: ['GET'])]
+    public function buy(Item $item): Response
+    {
+        return $this->render('item/buy.html.twig', [
+            'item' => $item,
+        ]);
+    }
+
     #[Route('/{id}/edit', name: 'app_item_edit', methods: ['GET', 'POST'])]
     public function edit(Request $request, Item $item, EntityManagerInterface $entityManager): Response
     {

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="5" assertions="0" errors="5" warnings="0" failures="0" skipped="0" time="5.595046">
+    <testsuite name="Project Test Suite" tests="5" assertions="0" errors="5" warnings="0" failures="0" skipped="0" time="5.595046">
+      <testsuite name="App\Test\Controller\ClientProfileControllerTest" file="C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php" tests="5" assertions="0" errors="5" warnings="0" failures="0" skipped="0" time="5.595046">
+        <testcase name="testIndex" class="App\Test\Controller\ClientProfileControllerTest" classname="App.Test.Controller.ClientProfileControllerTest" file="C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php" line="32" assertions="0" time="5.458545">
+          <error type="Doctrine\DBAL\Exception\ConnectionException">App\Test\Controller\ClientProfileControllerTest::testIndex
+Doctrine\DBAL\Exception\ConnectionException: An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'
+
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Driver\API\MySQL\ExceptionConverter.php:101
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1938
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1886
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:379
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1654
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1081
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\Persisters\Entity\BasicEntityPersister.php:939
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:225
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:207
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php:25</error>
+        </testcase>
+        <testcase name="testNew" class="App\Test\Controller\ClientProfileControllerTest" classname="App.Test.Controller.ClientProfileControllerTest" file="C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php" line="43" assertions="0" time="0.067293">
+          <error type="Doctrine\DBAL\Exception\ConnectionException">App\Test\Controller\ClientProfileControllerTest::testNew
+Doctrine\DBAL\Exception\ConnectionException: An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'
+
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Driver\API\MySQL\ExceptionConverter.php:101
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1938
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1886
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:379
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1654
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1081
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\Persisters\Entity\BasicEntityPersister.php:939
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:225
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:207
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php:25</error>
+        </testcase>
+        <testcase name="testShow" class="App\Test\Controller\ClientProfileControllerTest" classname="App.Test.Controller.ClientProfileControllerTest" file="C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php" line="64" assertions="0" time="0.007858">
+          <error type="Doctrine\DBAL\Exception\ConnectionException">App\Test\Controller\ClientProfileControllerTest::testShow
+Doctrine\DBAL\Exception\ConnectionException: An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'
+
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Driver\API\MySQL\ExceptionConverter.php:101
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1938
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1886
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:379
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1654
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1081
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\Persisters\Entity\BasicEntityPersister.php:939
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:225
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:207
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php:25</error>
+        </testcase>
+        <testcase name="testEdit" class="App\Test\Controller\ClientProfileControllerTest" classname="App.Test.Controller.ClientProfileControllerTest" file="C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php" line="86" assertions="0" time="0.040073">
+          <error type="Doctrine\DBAL\Exception\ConnectionException">App\Test\Controller\ClientProfileControllerTest::testEdit
+Doctrine\DBAL\Exception\ConnectionException: An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'
+
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Driver\API\MySQL\ExceptionConverter.php:101
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1938
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1886
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:379
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1654
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1081
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\Persisters\Entity\BasicEntityPersister.php:939
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:225
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:207
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php:25</error>
+        </testcase>
+        <testcase name="testRemove" class="App\Test\Controller\ClientProfileControllerTest" classname="App.Test.Controller.ClientProfileControllerTest" file="C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php" line="123" assertions="0" time="0.021278">
+          <error type="Doctrine\DBAL\Exception\ConnectionException">App\Test\Controller\ClientProfileControllerTest::testRemove
+Doctrine\DBAL\Exception\ConnectionException: An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'
+
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Driver\API\MySQL\ExceptionConverter.php:101
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1938
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1886
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:379
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1654
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\dbal\src\Connection.php:1081
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\Persisters\Entity\BasicEntityPersister.php:939
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:225
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\vendor\doctrine\orm\lib\Doctrine\ORM\EntityRepository.php:207
+C:\Users\danie\OneDrive\Documents\College Year 3\Semester 2\Web framwork\WebFrame\project\project\tests\Controller\ClientProfileControllerTest.php:25</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
