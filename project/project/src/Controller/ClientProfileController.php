@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 
 #[Route('/client/profile')]
-#[IsGranted('ROLE_USER')]
+#[IsGranted('ROLE_ADMIN')]
 class ClientProfileController extends AbstractController
 {
     #[Route('/', name: 'app_client_profile_index', methods: ['GET'])]
