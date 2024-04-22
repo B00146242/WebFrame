@@ -1,0 +1,7 @@
+Client Profile Controller (App\Test\Controller\ClientProfileController)
+ [ ] Index
+ [ ] New
+ [ ] Show
+ [ ] Edit
+ [ ] Remove
+

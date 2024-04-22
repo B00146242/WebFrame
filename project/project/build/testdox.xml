@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="App\Test\Controller\ClientProfileControllerTest" methodName="testIndex" prettifiedClassName="Client Profile Controller (App\Test\Controller\ClientProfileController)" prettifiedMethodName="Index" status="4" time="5.4585448" size="-1" groups="default" exceptionLine="25" exceptionMessage="An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'">
+    <group name="default"/>
+  </test>
+  <test className="App\Test\Controller\ClientProfileControllerTest" methodName="testNew" prettifiedClassName="Client Profile Controller (App\Test\Controller\ClientProfileController)" prettifiedMethodName="New" status="4" time="0.0672931" size="-1" groups="default" exceptionLine="25" exceptionMessage="An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'">
+    <group name="default"/>
+  </test>
+  <test className="App\Test\Controller\ClientProfileControllerTest" methodName="testShow" prettifiedClassName="Client Profile Controller (App\Test\Controller\ClientProfileController)" prettifiedMethodName="Show" status="4" time="0.0078576" size="-1" groups="default" exceptionLine="25" exceptionMessage="An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'">
+    <group name="default"/>
+  </test>
+  <test className="App\Test\Controller\ClientProfileControllerTest" methodName="testEdit" prettifiedClassName="Client Profile Controller (App\Test\Controller\ClientProfileController)" prettifiedMethodName="Edit" status="4" time="0.0400726" size="-1" groups="default" exceptionLine="25" exceptionMessage="An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'">
+    <group name="default"/>
+  </test>
+  <test className="App\Test\Controller\ClientProfileControllerTest" methodName="testRemove" prettifiedClassName="Client Profile Controller (App\Test\Controller\ClientProfileController)" prettifiedMethodName="Remove" status="4" time="0.0212775" size="-1" groups="default" exceptionLine="25" exceptionMessage="An exception occurred in the driver: SQLSTATE[HY000] [1049] Unknown database 'project_test'">
+    <group name="default"/>
+  </test>
+</tests>
