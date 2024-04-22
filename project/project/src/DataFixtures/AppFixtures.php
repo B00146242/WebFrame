@@ -11,30 +11,29 @@ use App\Factory\MakeFactory;
 use App\Factory\PhoneFactory;
 use App\Factory\SportFactory;
 use App\Factory\ClubFactory;
+use App\Factory\ItemFactory;
 
 class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
-        UserFactory::createOne([
-            'email' => 'matt@matt.com',
-            'password' => 'pass',
-            'roles' => [
-                'ROLE_ADMIN',
-                'ROLE_TEACHER'
-            ]
-        ]);
 
         UserFactory::createOne([
             'email' => 'user@user.com',
             'password' => 'pass',
-            'roles' => ['ROLE_USER']
+            'roles' => ['ROLE_USER1']
         ]);
 
         UserFactory::createOne([
-            'email' => 'joe@joe.com',
+            'email' => 'user@user2.com',
             'password' => 'password',
-            'roles' => ['ROLE_ADMIN']
+            'roles' => ['ROLE_USER2']
+        ]);
+
+        UserFactory::createOne([
+            'email' => 'user@user3.com',
+            'password' => 'password',
+            'roles' => ['ROLE_USER3']
         ]);
 
         UserFactory::createOne([
@@ -42,6 +41,27 @@ class AppFixtures extends Fixture
             'password' => 'pass',
             'roles' => ['ROLE_ADMIN']
         ]);
+
+        ItemFactory::createOne(
+            [
+             'typeOfClothing' => 'jean',
+                'material' => 'Cotton',
+                'Colour' => 'Blue',
+                'Damaged' => true,
+                'price' => 39.99
+
+            ]
+        );
+
+        ItemFactory::createOne(
+            [
+                'typeOfClothing' => 'Shirt',
+                'material' => 'Wool',
+                'Colour' => 'Grey',
+                'Damaged' =>  false,
+                'price' => 10.99
+            ]
+        );
 
 //        MakeFactory::createOne(['name' => 'Apple']);
 //        $samsung = MakeFactory::createOne(['name' => 'Samsung']);
